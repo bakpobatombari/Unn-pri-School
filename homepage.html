@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/portal.css">
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <title>PORTAL</title>
+</head>
+<body>
+  <script src="assets/js/index.js"></script>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)"><img src="assets/images/logo.jpeg" alt="Logo" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="javascript:void(0)">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="javascript:void(0)">Result checker</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-light " type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="portal container-fluid">
+        <div class="col-md-12">
+          <h3 class="portal ptal"><span>&simg;</span> WELCOME <span>&simg;</span> <br><span>&simg;</span> TO<span>&simg;</span> <br><span>&simg;</span>OUR PORTAL<span>&simg;</span></h3>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <h3 style="text-align: center;">WELCOME TO UNIVERSITY SCHOOL PORTAL </h3>
+      </div>
+      <div class="login">
+        <h1>Login</h1>
+        <form method="post" onsubmit="newUser();">
+          <label for="username">
+            <i class="fas fa-user"></i>
+          </label>
+          <input type="text" name="username" placeholder="Username" id="username" required>
+          <label for="class">
+            <i class="far fa-address-card"></i>
+          </label>
+          <input type="text" name="class" placeholder="Class" id="class" required>
+          <label for="password">
+            <i class="fas fa-lock"></i>
+          </label>
+          <input type="password" name="password" placeholder="Password" id="password" required>
+          <input type="submit" value="Login" onclick=" myFuncion()">
+        </form>
+      </div>
+</body>
+</html>

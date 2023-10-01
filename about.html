@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <title>UNIVERSITY PRIMARY SCHOOL, NSUKKA</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="javascript:void(0)"><img src="assets/images/logo.jpeg" alt="Logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="javascript:void(0)">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="javascript:void(0)">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="login.html" ><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+                <div id="id01" class="modal">
+                  
+                  <form class="modal-content animate" action="/action_page.php" method="post">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                    </div>
+                
+                    <div class="container">
+                      <label for="uname"><b>Username</b></label>
+                      <input type="text" placeholder="Enter Username" name="uname" required>
+                
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                        
+                      <button type="submit">Login</button>
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                      </label>
+                    </div>
+                
+                    <div class="container" style="background-color:#f1f1f1">
+                      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                      <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                  </form></a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-light " type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="homepageA"></div>
+    <div class="container-fluid writeup">
+        <h3>ABOUT</h3>
+        <div class="underline col-md-2" style="margin-bottom: 50px;"></div>
+        <h4 style="color: navy;">A BRIGHT FUTURE</h4>
+        <h5 style="font-weight: 300; color:rgb(0,0,0,);">University Primary School, Nsukka is the brainchild of Mrs C.A NWOKE, a seasoned educationist, wife and mother with strong passion for qualitative education and the desire to inculcate the fear of God in children which inevitably transforms them into exemplary leaders. We take pride in our superior infrastructure, peaceful and secure environment. Slowly, but surely stepping up the improvement ladder, University Primary School, UNN is recognised for her state-of-the-art facilities, experienced and highly-dedicated instructors and professionally skilled leadership team. Our well-formidable team of experts together with the support of parent-clientele work hand-in-hand to provide an enviable learning oak for our students. Won’t you rather journey with us as we invite you to the most beneficial and educational world of experiences.</h5>
+        <h5 style="color:navy; margin-top: 30px;">WHY UPS?</h5>
+        <h6>We strive to design educational experiences and environments that will ensure our pupils are ready to lead successful, well-balanced, happy lives.</h6>
+    </div>
+    <div class="container-fluid join-us">
+        <div class="row">
+            <div class="col-md-4">
+                <button class="col-md-12 join">INQUIRE</button>
+            </div>
+
+            <div class="col-md-4">
+                <button class="col-md-12 join">ABOUT</button>
+            </div>
+
+            <div class="col-md-4">
+                <button class="col-md-12 join">VISIT US</button></div>
+        </div>
+    </div>
+    <footer  class="bg-info">
+        <div class="container-fluid">
+            <p style="text-align: center;"><i>SPONSORED BY BAKPO BATOMBARI</i></p>
+
+            <p style="text-align: center;border-bottom: solid 2px white;"><i>September 26th, 2023</i></p>
+            <p><span>&copy</span>2023 COPYRIGHT</p>
+        </div>
+    </footer>
+</body>
+</html>

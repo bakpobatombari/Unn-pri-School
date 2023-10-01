@@ -1,0 +1,56 @@
+.logo{
+    height:40px;
+}
+.homepage{
+    height:400px;
+    background-image: url('../images/background.jpeg');
+    background-repeat: round;
+}
+.homepageA{
+    margin-bottom: 40px;
+    height:400px;
+    background-repeat: round;
+    background-image: url('../images/about.jpeg');
+}
+.underline{
+    height:2px;
+    background-color: rgb(0, 0, 0);
+}
+.learning{
+    height:300px;
+    background-color: azure;
+}
+.athletics{
+    height:300px;
+    background-color: blue;
+}
+.join-us{
+    height:400px;
+    background: linear-gradient(skyblue, black, white);
+    opacity: 0.6;
+    margin-top: 50px;
+}
+.join{
+    margin-top: 200px;
+    font-size: large;
+    font-weight: 600;
+    border: 4px rgb(202, 240, 255) solid;
+    color: rgb(202, 240, 255);
+    height:70px;
+    background:transparent;
+}
+.join:hover{
+    background: rgb(202, 240, 255);
+    color:white;
+    font-weight: 900;
+    transition: 1s;
+}
+footer{
+    margin-top: 50px;
+    height:130px;
+    color:white;
+    padding-top: 20px;
+}
+.writeup{
+    background-color: rgba(209, 209, 209, 0.11);
+}
